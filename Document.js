@@ -146,7 +146,7 @@ Document.prototype.toESDocument = function() {
     // In ES7, the only allowed document type will be `_doc`.
     // However underscores are not allowed until ES6, so use `doc` for now
     // see https://github.com/elastic/elasticsearch/pull/27816
-    _type: 'doc',
+    _type: '_doc',
     data: doc
   };
 };
